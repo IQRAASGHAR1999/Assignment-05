@@ -5,17 +5,14 @@
 
 
 import turtle
-    
-t = turtle.Turtle()
-  
-radius_circle = 5
-
-for i in range(100):
-    t.circle(radius_circle + i, 45)
-
-
-# In[ ]:
-
-
-
+t= turtle.Turtle ()
+def circle(angle):
+        t.forward(100 )
+        t.right(angle )
+        t.forward(3 )
+        t.right(angle )
+        t.forward(100 )
+        t.right(angle+1)
+for i in range(90):
+    circle(90)
 
